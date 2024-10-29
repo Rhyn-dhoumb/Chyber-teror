@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHYBER TEROR</title>
+    <style>
+        body {
+            background-image: url('https://cdn.pixabay.com/photo/2014/09/30/12/01/digital-472277_1280.jpg'); /* Gambar latar belakang */
+            background-size: cover;
+            color: green;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 48px;
+            animation: blink 1s step-start infinite;
+            opacity: 0.8;
+        }
+
+        p {
+            font-size: 24px;
+            animation: blink 2s step-start infinite;
+            opacity: 0.6;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 0.8; }
+            50% { opacity: 0.2; }
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 18px;
+            opacity: 0.5;
+            animation: fadeInOut 3s infinite;
+        }
+
+        @keyframes fadeInOut {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+
+        audio {
+            display: none; /* Sembunyikan elemen audio */
+        }
+    </style>
+</head>
+<body>
+    <h1>CHYBER TEROR</h1>
+    <p>Selamat datang di dunia siber yang penuh misteri!</p>
+    <div class="footer">
+        <p>Nama Pemilik: RHYN DHOUMB & BULAN GPT</p>
+    </div>
+    <audio autoplay loop>
+        <source src="https://www.bensound.com/bensound-music/bensound-epic.mp3" type="audio/mpeg"> <!-- Musik latar -->
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
